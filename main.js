@@ -10,6 +10,8 @@ var playgame = function () {
 
 // (INPUT HERE) User Choice equals users choice after validating it through function
     var userChoice = getUserChoice('paper');
+// use var userChoice = prompt ("Pick Rock Paper or Scissors?); <-- CodingWithRob
+
 
     //Display the user choice
     console.log(`You threw ${userChoice}`);
